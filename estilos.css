@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  background-image: url("ocean.jpg");
+  font-family: "Open Sans", sans-serif;
+}
+
+  
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(1, 1, 22);
+}
+
+button {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(227, 248, 255);
+  color: rgb(243, 6, 6);
+  text-align: center;
+  padding: 10px;
+}
+
+input[type="text"] {
+  padding: 15px;
+  border-radius: 15px;
+  border: 5px solid rgb(249, 3, 3);
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: rgb(17, 255, 0);
+  
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: rgb(247, 5, 5);
+}
